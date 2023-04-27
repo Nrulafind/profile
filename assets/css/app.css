@@ -13,6 +13,8 @@ body {
 
   display: flex;
   flex-direction: column;
+
+  background-color: #ff731d;
 }
 
 header.navbar-container {
@@ -53,8 +55,8 @@ header.navbar-container .nav-list li a {
 }
 
 header.navbar-container .nav-list li:hover a {
-  background-color: #425c77;
-  color: white;
+  background-color: #1746a2;
+  color: #fff7e9;
 }
 
 main {
@@ -95,18 +97,18 @@ main .content .content-description button {
   font-weight: 700;
   font-size: 1rem;
   font-family: "Quicksand", sans-serif;
-  color: white;
+  color: #fff7e9;
 
   border: 3px solid transparent;
   border-radius: 999px;
-  background-color: #2d3e50;
+  background-color: #1746a2;
   cursor: pointer;
   transition: all 0.15s ease-in;
 }
 
 main .content .content-description button:hover {
-  border: 3px solid #2d3e50;
-  color: #2d3e50;
+  border: 3px solid #f5c6ec;
+  color: #1746a2;
   background-color: transparent;
 }
 
@@ -137,7 +139,7 @@ main aside .social-media ul {
   margin: auto;
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
-  background-color: #2d3e50;
+  background-color: #1746a2;
 
   display: flex;
   flex-flow: column nowrap;
@@ -153,7 +155,7 @@ main aside .social-media li {
 main aside .social-media li a {
   text-decoration: none;
   font-size: 1.5rem;
-  color: white;
+  color: #fff7e9;
   transition: all 0.1s ease-in-out;
 }
 
