@@ -1,7 +1,13 @@
 runtime: nodejs14
 
 handlers:
-  - url: /static
-    static_dir: public
+  - url: /assets
+    static_dir: public/assets
   - url: /.*
-    script: auto
+    static_files: public/index.html
+    upload: public/index.html
+
+env_variables:
+  NODE_ENV: production
+
+entrypoint: node app.js
